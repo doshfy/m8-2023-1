@@ -13,6 +13,7 @@ const registeredUsers = [
     ["emilia", "U78p"],
     ["anya", "4hSZ"],
     ["arina", "xB82m"],
+    ["admin", "t147f2"]
 ];
 
 function isValid(username, password) {   
@@ -81,6 +82,10 @@ form.addEventListener('submit', function(e){
 
         if (username == "anya") {
             window.open("anya_l.html");
+        }
+
+        if (username == "admin") {
+            window.open("admin.html");
         }
     }
 });

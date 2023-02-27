@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Log in</title>
         <link rel="shortcut icon" href="../images/8 march.png" type="image/png">
+		<link rel="stylesheet" href="../style.css">
     </head>
 
     <style>
@@ -19,6 +20,7 @@
             padding-left: 40px;
             font-size: 16px;
             border-radius: 10px;
+			border-color: black;
             color: white;
         }
 
@@ -30,6 +32,7 @@
             padding-left: 40px;
             font-size: 16px;
             border-radius: 10px;
+			border-color: black;
             color: white;
         }
 
@@ -42,18 +45,20 @@
             display: inline-block;
             font-size: 16px;
             border-radius: 10px;
+			border-color: black;
         }
     </style>
 
     <body>
-        <form>
+        <div class="container"><form>
             <input type="text" name="login" placeholder="Login"/>
             <br><br>
             <input type="password" name="password" placeholder="Password"/>
             <br><br>
             <button>Log In</button>
-        </form>
+        </form></div>
 
         <script  src="./script.js"></script>
+		<script src="../script.js"></script>
     </body>
 </html>

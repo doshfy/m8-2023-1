@@ -191,13 +191,13 @@ i {
 }
 
 #navbarSupportedContent ul li a{
-	  color: rgba(255,255,255,0.5);
+	color: rgba(255,255,255,0.5);
     text-decoration: none;
     font-size: 15px;
     display: block;
     padding: 20px 20px;
     transition-duration:0.6s;
-	  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     position: relative;
 }
 
